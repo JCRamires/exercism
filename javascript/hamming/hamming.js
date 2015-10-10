@@ -13,4 +13,4 @@ var compute = function(firstStrand, secondStrand) {
     return hamming
 }
 
-module.exports = compute;
+module.exports = compute

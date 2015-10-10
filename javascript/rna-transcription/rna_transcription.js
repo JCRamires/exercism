@@ -4,14 +4,14 @@ DnaTranscriber.prototype.dnaPairs = {
     c: 'G',
     g: 'C',
     a: 'U',
-    t: 'A',
+    t: 'A'
 }
 
 DnaTranscriber.prototype.rnaPairs = {
     c: 'G',
     g: 'C',
     u: 'A',
-    a: 'T',
+    a: 'T'
 }
 
 DnaTranscriber.prototype.toRna = function(strand) {
@@ -30,4 +30,4 @@ DnaTranscriber.prototype.toDna = function(strand) {
     return complement
 }
 
-module.exports = DnaTranscriber;
+module.exports = DnaTranscriber

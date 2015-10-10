@@ -1,4 +1,4 @@
-var HelloWorld = function() {};
+var HelloWorld = function() {}
 
 HelloWorld.prototype.hello = function(input) {
     if (input == null || input === '') {
@@ -6,6 +6,6 @@ HelloWorld.prototype.hello = function(input) {
     } else {
         return 'Hello, ' + input + '!'
     }
-};
+}
 
-module.exports = HelloWorld;
+module.exports = HelloWorld
